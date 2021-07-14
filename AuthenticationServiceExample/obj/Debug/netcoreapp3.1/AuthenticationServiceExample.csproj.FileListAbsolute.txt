@@ -8,8 +8,6 @@ C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServic
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\AuthenticationServiceExample.dll
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\AuthenticationServiceExample.pdb
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.csprojAssemblyReference.cache
-C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.csproj.CoreCompileInputs.cache
-C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.AssemblyInfoInputs.cache
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.AssemblyInfo.cs
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.RazorTargetAssemblyInfo.cache
@@ -18,3 +16,11 @@ C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServic
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.dll
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.pdb
 C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.genruntimeconfig.cache
+C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.csproj.CoreCompileInputs.cache
+C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\odemirci\source\repos\AuthenticationServiceExample\AuthenticationServiceExample\obj\Debug\netcoreapp3.1\AuthenticationServiceExample.csproj.CopyComplete
