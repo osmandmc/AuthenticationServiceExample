@@ -20,10 +20,12 @@ namespace AuthenticationServiceExample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
             services.AddSwaggerGen(x =>
             {
                 x.SwaggerDoc("v1", new OpenApiInfo { Title = "Authorization API", Version = "v1" });
             });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,11 +45,13 @@ namespace AuthenticationServiceExample
             {
                 endpoints.MapControllers();
             });
+            
             app.UseSwagger();
             app.UseSwaggerUI(option =>
             {
                 option.SwaggerEndpoint("v1/swagger.json", "Authorization API");
             });
+            
 
         }
     }
