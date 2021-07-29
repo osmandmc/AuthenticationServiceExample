@@ -14,26 +14,20 @@ namespace AuthenticationServiceExample.Repository
     {
         static List<User> users = new List<User>
         {
-            new User {loginModel = new LoginModel {UserName = "Ege", Password = "c2lmcmUxMjM0JUQzPT8h"}}, //sifre1234
-            new User {loginModel = new LoginModel {UserName = "Ahmet", Password = "aXN0YW5idWwlRDM9PyE="}} //istanbul
+            new User {userName = "Ege", password = "c2lmcmUxMjM0JUQzPT8h"}, //sifre1234
+            new User {userName = "Ahmet", password = "aXN0YW5idWwlRDM9PyE="} //istanbul
         };
-
-        public string SendToken(string username, string password)
+        public static User GetUser(string _userName, string _password)
         {
-            using Aes myAes = Aes.Create();
-
-            byte[] bytes = AESOperations.EncryptStringToBytes_Aes(password, myAes.Key, myAes.IV);
-
-            string token = Convert.ToBase64String(bytes);
-;
-            foreach (User user in users)
+            foreach(User user in users)
             {
-                if (user.loginModel.UserName == username && user.loginModel.Password == password)
+                if(user.password == _password && user.userName == _userName)
                 {
-                    return token;
+                    return user;
                 }
             }
             return null;
         }
+
     }
 }

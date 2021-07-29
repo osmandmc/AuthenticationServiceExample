@@ -11,6 +11,7 @@ namespace AuthenticationServiceExample.Domain
         public string name { get; set; }
         public string surname { get; set; }
         public int age { get; set; }
-        public LoginModel loginModel { get; set; }
+        public string userName { get; set; }
+        public string password { get; set; }
     }
 }

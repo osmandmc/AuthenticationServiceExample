@@ -11,16 +11,14 @@ namespace AuthenticationServiceExample.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-
+        UserRepository userRepository = new UserRepository();
+        TokenOperations tokenOperations = new TokenOperations();
         string salt = "%D3=?!";
         [HttpPost]
         public string Login(LoginModel loginModel)
         {
-            UserRepository userRepository = new UserRepository();
-
             loginModel.Password += salt;
-             
-            return userRepository.SendToken(loginModel.UserName, Base64Operations.Encode(loginModel.Password));
+            return tokenOperations.SendToken(loginModel.UserName, Base64Operations.Encode(loginModel.Password));
         }
     }
 

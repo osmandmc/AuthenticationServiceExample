@@ -7,7 +7,7 @@ using System.IO;
 
 namespace AuthenticationServiceExample.Operations
 {
-    public abstract class AESOperations
+    public class AESOperations
     {
         public static byte[] EncryptStringToBytes_Aes(string plainText, byte[] Key, byte[] IV)
         {
