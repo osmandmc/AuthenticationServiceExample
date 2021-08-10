@@ -53,3 +53,4 @@ C:\Users\ecinar\source\repos\AuthenticationServiceExampleLast\AuthenticationServ
 C:\Users\ecinar\source\repos\AuthenticationServiceExampleLast\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\System.Formats.Asn1.dll
 C:\Users\ecinar\source\repos\AuthenticationServiceExampleLast\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Cng.dll
 C:\Users\ecinar\source\repos\AuthenticationServiceExampleLast\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
+C:\Users\ecinar\source\repos\AuthenticationServiceExampleLast\AuthenticationServiceExample\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

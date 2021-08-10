@@ -6,19 +6,21 @@ using System.Security.Cryptography;
 using AuthenticationServiceExample.Controllers;
 using AuthenticationServiceExample.Domain;
 using AuthenticationServiceExample.Repository;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 namespace AuthenticationServiceExample.Operations
 {
-    public class TokenOperations
+    public class Encryption
     {
-        public string SendToken(string username, string password)
+        public string SendToken(User user)
         {
-            using Aes myAes = Aes.Create();
+            string jsonString = JsonSerializer.Serialize(user);
 
-            byte[] bytes = AESOperations.EncryptStringToBytes_Aes(password, myAes.Key, myAes.IV);
+            using Aes myAes = Aes.Create();
+            
+            byte[] bytes = AESOperations.EncryptStringToBytes_Aes(jsonString, myAes.Key, myAes.IV);
 
             string token = Convert.ToBase64String(bytes);
-
-            User user = UserRepository.GetUser(username, password);
 
             if(user != null)
             {

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JhEl7VwpHD3Zverdw0HzHyD3Th//eIyMmE5MHJFf3K9qNvZ5wd/rJHk5qDsx9tz7s2aX4oE0iuzRGC9pmOxqOQ==",
+  "dgSpecHash": "LIRjsHdOFmyw93UEAx+Q/pTi5bCqZwW2WXeyivXDe5tK0TFjfjTwSAUdwOW3nZOwZ7M3GRWRm4DcOD9M9QsPiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ecinar\\source\\repos\\AuthenticationServiceExampleLast\\AuthenticationServiceExample\\AuthenticationServiceExample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ecinar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ecinar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ecinar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ecinar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
     "C:\\Users\\ecinar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
     "C:\\Users\\ecinar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
